@@ -1,0 +1,131 @@
+/*
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+body {
+	margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #161925;
+}
+
+#main-menu {
+	margin-top: 50px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 3.5em;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #FDFFFC;
+}
+
+li a:hover {
+    background-color: #161925;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section .section-title {
+    text-align: right;
+    border-right: 5px solid #235789;
+}
+
+section .section-title span {
+    padding-right: 5px;
+    font-size: 1.8em;
+}
+
+section .section-content {
+    margin-top: 10px;
+}
+
+.products {
+	overflow: hidden;
+}
+
+.product {
+	width: 270px;
+	float: left;
+	padding-right: 20px;
+}
+
+.product:last-of-type {
+	padding-right: 0;
+}
+
+.product .title {
+	padding: 3px;
+	font-size: 1.25em;
+	text-align: center;
+	background-color: #161925;
+    color: #FDFFFC;
+}
+
+.product .bottom-section {
+	overflow: hidden;
+	background-color: #235789;
+}
+
+.product .price, .product .cart-add {
+	float: left;
+	width: 50%;
+    text-align: center;
+}
+
+.product .price span, .product .cart-add span {
+    display: block;
+    padding: 3px;
+    color: #FDFFFC;
+}
+
+.product .cart-add {
+    background-color: #C04A4A;
+}
+
+#all-products {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#all-products a {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    background-color: #FFA630;
+    transition-duration: 300ms;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+    color: #FDFFFC;
+}
+
+#all-products a:hover {
+    background-color: #FFB655;
+    color: #171817;
+}
